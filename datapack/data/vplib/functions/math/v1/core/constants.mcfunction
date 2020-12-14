@@ -71,3 +71,5 @@ scoreboard players set #268435456 vplib.math 268435456
 scoreboard players set #536870912 vplib.math 536870912
 scoreboard players set #1000000000 vplib.math 1000000000
 scoreboard players set #1073741824 vplib.math 1073741824
+
+scoreboard players set #lcg.multiplier vplib.math 1630111353
