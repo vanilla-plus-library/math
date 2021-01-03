@@ -1,4 +1,8 @@
 {
+    "description": [
+        " Reset LCG seed. "
+    ],
+    
     "values": [
         "vplib:math/v1/api/lcg/reset_seed"
     ]

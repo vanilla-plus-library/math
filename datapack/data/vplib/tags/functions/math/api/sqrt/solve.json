@@ -1,4 +1,15 @@
 {
+    "description": [
+        " Compute square root.       ",
+        "                            ",
+        "  INPUTS:                   ",
+        "   #input vplib.math        ",
+        "   #scale_factor vplib.math ",
+        "                            ",
+        "  OUTPUTS:                  ",
+        "   #output vplib.math       "
+
+    ],
     "values": [
         "vplib:math/v1/api/sqrt/solve"
     ]

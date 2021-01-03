@@ -1,4 +1,15 @@
 {
+    "description": [
+        " Generate a random number within a range. ",
+        "                                          ",
+        "  INPUTS:                                 ",
+        "    #min vplib.math                       ",
+        "    #max vplib.math                       ",
+        "                                          ",
+        "  OUTPUTS:                                ",
+        "    #output vplib.math                    "
+    ],
+    
     "values": [
         "vplib:math/v1/api/lcg/ranged"
     ]

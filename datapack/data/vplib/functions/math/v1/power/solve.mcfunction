@@ -1,13 +1,13 @@
 #> vplib:math/v1/power/solve
 
-# Set output
+# Init output
 scoreboard players set #output vplib.math 1
 
-# Set loop
+# Get loop length from exponent(always positive)
 scoreboard players operation #loop vplib.temp = #exponent vplib.math
 execute if score #loop vplib.temp matches ..-1 run scoreboard players operation #loop vplib.temp *= #-1 vplib.math
 
-# Scale factor if exponent is negative
+# Set default scale factor if exponent is negative
 execute unless score #scale_factor vplib.math matches 1.. run scoreboard players set #scale_factor vplib.math 1000
 execute if score #exponent vplib.math matches ..-1 run scoreboard players operation #output vplib.math *= #scale_factor vplib.math
 

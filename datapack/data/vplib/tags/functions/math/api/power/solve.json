@@ -1,4 +1,16 @@
 {
+    "description": [
+        " Evaluate power.                                                     ",
+        "                                                                     ",
+        "  INPUTS:                                                            ",
+        "    #input vplib.math                                                ",
+        "    #exponent vplib.math                                             ",
+        "    #scale_factor vplib.math (only required with negative exponents) ",
+        "                                                                     ",
+        "  OUTPUTS:                                                           ",
+        "    #output vplib.math                                               "
+    ],
+
     "values": [
         "vplib:math/v1/api/power/solve"
     ]

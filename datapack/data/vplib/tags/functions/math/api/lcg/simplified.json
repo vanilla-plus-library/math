@@ -1,4 +1,11 @@
 {
+    "description": [
+        " Generate a random integer(-2146473648..2146473647) ",
+        "                                                    ",
+        "  OUTPUTS:                                          ",
+        "    #output vplib.math                              "
+    ],
+
     "values": [
         "vplib:math/v1/api/lcg/simplified"
     ]

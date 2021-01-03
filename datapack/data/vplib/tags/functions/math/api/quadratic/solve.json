@@ -1,4 +1,17 @@
 {
+    "description": [
+        " Solve the quadratic equation (Ax**2 + Bx + C = 0) ",
+        "                                                   ",
+        "  INPUTS:                                          ",
+        "    #input.a vplib.math (Ax**2)                    ",
+        "    #input.b vplib.math (Bx)                       ",
+        "    #input.c vplib.math (C)                        ",
+        "                                                   ",
+        "  OUTPUTS:                                          ",
+        "    #sol1 vplib.math                               ",
+        "    #sol2 vplib.math                               "
+    ],
+
     "values": [
         "vplib:math/v1/api/quadratic/solve"
     ]
