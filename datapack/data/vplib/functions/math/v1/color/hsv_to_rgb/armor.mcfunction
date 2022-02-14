@@ -4,10 +4,10 @@
 data remove block -30000000 0 4320 Items
 
 # Set armor
-replaceitem block -30000000 0 4320 container.0 minecraft:leather_boots{display:{color:0}}
-replaceitem block -30000000 0 4320 container.1 minecraft:leather_leggings{display:{color:0}}
-replaceitem block -30000000 0 4320 container.2 minecraft:leather_chestplate{display:{color:0}}
-replaceitem block -30000000 0 4320 container.3 minecraft:leather_helmet{display:{color:0}}
+item replace block -30000000 0 4320 container.0 with minecraft:leather_boots{display: {color: 0}}
+item replace block -30000000 0 4320 container.1 with minecraft:leather_leggings{display: {color: 0}}
+item replace block -30000000 0 4320 container.2 with minecraft:leather_chestplate{display: {color: 0}}
+item replace block -30000000 0 4320 container.3 with minecraft:leather_helmet{display: {color: 0}}
 
 # Loop color
 scoreboard players operation $color vplib.math += $color_rate vplib.math
